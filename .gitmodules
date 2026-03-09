@@ -1,0 +1,7 @@
+[submodule "core"]
+  path = core
+  url = https://github.com/TSYF/nestjs-sdk-tools-core.git
+
+[submodule "generator"]
+  path = generator
+  url = https://github.com/TSYF/nestjs-sdk-tools-generator.git

@@ -1,0 +1,15 @@
+{
+  "name": "nestjs-sdk-tools",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm -r run clean && pnpm -r run build && pnpm --filter @nestjs-sdk-tools/generator run prepare",
+    "publish:all": "pnpm build && pnpm -r publish --no-git-checks"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.22.0"
+}
